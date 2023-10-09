@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*88888888888888888  header page design  888888888888888888888888888888*/
+
+.header-container {
+    padding: 20px 20px;
+    background-color: purple;
+    background-image: linear-gradient(to bottom, purple, rgb(185, 0, 185));
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px 10px;
+    max-width: 400px;
+    border-radius: 50px;
+    border: none;
+    outline: 2px solid white;
+    outline-offset: 5px;
+    transition: all 0.2s ease-in;
+}
+
+input[type="text"]:active,
+input[type="text"]:focus {
+    outline-offset: 0px;
+}
+
+
+::placeholder {
+    color: purple;
+    font-weight: 700;
+}
+
+
+
+/*888888888888888888888888888  results page  888888888888888888888888888888*/
+
+
+
+
+
+
+
+/* -----------Main Section Css--------------- */
+
+
+body {
+
+    background-color: #f1f1f1;
+}
+
+.main_container {
+    padding-top: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Video-card {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.video-box {
+    padding: 10px;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Loader {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.video-content-box {
+    padding: 15px;
+}
+
+
+.video-content-box div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    padding: 5px 0px;
+
+}
+
+.video-content-box h3 {
+    color: purple;
+    text-transform: capitalize;
+
+}
+
+.video-content-box h5 {
+    padding: 8px 0px;
+
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.video-content-box h6 {
+    color: black;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.LikeFillColor {
+    color: red;
+
+}
+
+
+
+/* footer design  */
+
+
+footer {
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom, rgb(221, 2, 221), purple);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .icon-box {
+    background-color: white;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s all;
+    border: 2px solid white;
+}
+
+footer .icon-box:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: purple;
+}
+
+
+/* footer design  */
